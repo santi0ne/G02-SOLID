@@ -1,14 +1,25 @@
 package ec.edu.espol.clases;
 
-public class Pago {
-	//atributos aqui
+import ec.edu.espol.interfaces.IPago;
+
+public class Pago implements IPago{
+
+	@Override
 	public void realizarCobro(double monto) {
-		//cargar el monto de compra al medido de pago
+		// TODO Auto-generated method stub
+		
 	}
+
+	@Override
 	public void calcularImpuestosFactura() {
-		//calcula los impuestos asociados a la compra
+		// TODO Auto-generated method stub
+		
 	}
+
+	@Override
 	public void generarFactura() {
-		//generar una nueva factura
+		// TODO Auto-generated method stub
+		
 	}
+	
 }
