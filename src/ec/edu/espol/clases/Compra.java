@@ -1,8 +1,13 @@
 package ec.edu.espol.clases;
 
+import java.util.List;
+
 import ec.edu.espol.interfaces.Pagable;
 
 public class Compra {
+	
+	private Pagable pago;
+	private List articulos;
 
 	public Compra(Pagable pago) {
 		//inicializaciones
