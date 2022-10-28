@@ -1,12 +1,10 @@
 package ec.edu.espol.clases;
 
+import ec.edu.espol.interfaces.Pagable;
+
 public class Compra {
-	private Pago pago;
-	private PagoPayPal pagoPayPal;
-	private Compra(Pago pago) {
-		//inicializaciones
-	}
-	public Compra(PagoPayPal pagoPayPal) {
+
+	public Compra(Pagable pago) {
 		//inicializaciones
 	}
 	public void agregarArticulo(Articulo articulo) {
