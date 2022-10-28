@@ -2,6 +2,7 @@ package ec.edu.espol.interfaces;
 
 public interface Pagable {
 	
-	public void realizarcobro();
+	public void realizarcobro(double monto);
+	
 }
 
